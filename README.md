@@ -1,5 +1,5 @@
-# NAME:G.SRI JANI
-# REG NO:212224060259
+# NAME:KRITHI.V
+# REG NO:212224060128
 
 # ASK & FSK
 # Aim
@@ -36,7 +36,7 @@ decoded = (demod[::fs//br] > 0.25).astype(int)
 
 # Plot
 plt.figure(figsize=(10,9))
-plt.suptitle("NAME : SRI JANI.G\nREG NO : 212224060259",
+plt.suptitle("NAME : KRITHI.V\nREG NO : 212224060128",
              fontsize=12, fontweight='bold')  
 
 plt.subplot(4,1,1)
@@ -97,7 +97,7 @@ demod = np.repeat(dec, bd)
 
 # Plot
 plt.figure(figsize=(10,10))
-plt.suptitle("NAME : SRI JANI.G\nREG NO : 212224060259",
+plt.suptitle("NAME : KRITHI.V\nREG NO : 212224060128",
              fontsize=12, fontweight='bold')
 
 plt.subplot(5,1,1); plt.plot(t, msg); plt.title("Message Signal")
@@ -117,7 +117,7 @@ plt.show()
 
 # FSK
 
-<img width="989" height="985" alt="image" src="https://github.com/user-attachments/assets/a6eb5772-555e-431a-8879-b20b8cda9811" />
+<img width="1106" height="873" alt="image" src="https://github.com/user-attachments/assets/509629ab-6f1a-4928-85f5-3a520f2680fd" />
 
 # Results
 
